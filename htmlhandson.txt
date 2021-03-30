@@ -1,0 +1,424 @@
+1.1
+<!doctype html>
+<html>
+<head>
+<title>
+hello</title></head>
+<body>
+<form name="form1" method="get/post"
+
+accept-charset="ISO-8859-1" enctype="multipart/form-data"
+
+autocomplete="on" action="url" target="_self" novalidate>
+
+ 
+Name:<input type="text" name="n1" value="" size="10"
+
+maxlength="20" autocomplete="on"  autofocus  required
+
+ pattern="[a-z]" placeholder="Enter name"><br/></br></br>
+address:<input type="text area" name="n2" value=""><br/></br></br>
+city:<input type="text" name="n2" value=""><br/></br></br>
+<select name="postal code">
+
+  <option value="516380" selected>516380</option>
+
+  <option value="516381">516381</option>
+
+  <option value="516382">516382</option><br/></br></br>&nbsb;
+
+<br><br> 
+
+</select><br><br> 
+
+<input type="radio" name="transport mode" value="bus" checked> bus<br>
+
+  <input type="radio" name="transport mode" value="car" checked> car<br>
+<input type="radio" name="transport mode" value="cycle" checked> cycle<br>
+
+
+  <input type="radio" name="transport mode" value="other" checked> Other
+
+<br/><br/>
+<input type="checkbox" name="skillset" value="java"
+
+checked> I know java<br>
+
+  <input type="checkbox" name="skillset" value="html"
+
+checked> I know html
+
+<br/><br/>
+
+email:<input type="text area" name="n3" value=""><br/></br></br>
+about your self:<input type="text area" name="n4" value=""><br/></br></br>
+<a href="submit.html" ><input type="submit" value="Submit" formaction="submit.html"></a>
+
+<input type="reset" value="Reset"><br>
+</form>
+</body>
+</html> 
+
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<p> your details are submitted. thank  you</p>
+</body>
+</html>
+............................................................................................................................................
+1.2
+
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>HTML</TITLE>
+
+</HEAD>
+<BODY text=#000000 bgColor=#ffffff>
+
+<CENTER>
+
+<H1>Assignment 1: Basic HTML Display Features</H1></CENTER>
+
+<P>A basic page needs only a bare minimum of programming.
+
+Graphics are an important part of Web pages but so too are
+
+words. I look upon the Web as a medium for ideas and the use
+
+of new technologies, but not the other way around.
+
+A Web page tells a great story with great graphical and
+
+analytical presentation.</P>
+
+<P>Using the "View" option look at the source code for this
+
+document. The background color and the text declared in the
+
+body refer to a coding system that combines a system of
+
+numbers and letters to create thousands of possible color
+
+choices. The body color indicates white and the text as being
+
+black. I could have just written in "white" and "black"
+
+instead of these codes.</P>
+
+<P>Here is an example of a horizontal rule:</P>
+
+
+
+<P>To begin, we can change the <H2>header size</H2>and <FONT
+
+color=blue>color</FONT> <FONT color=#ff0000>of</FONT> <FONT
+
+color=#008080>letters</FONT> seen on the screen.
+
+The <FONT size=+2>font size</FONT>can be changed as well, and
+
+actually gives more choices.</P>
+
+<P>We can also change the appearance of words on the screen.
+
+This shows some
+
+differing word types in a blocked quote.</P>
+
+<BLOCKQUOTE><FONT face="Geneva, Arial, Helvetica, sansserif">
+
+Now is the <EM>time </EM>for all good <STRONG>people</STRONG> to <B>come </B>to the <I>aid</I> of
+
+their country. </FONT></BLOCKQUOTE>
+
+<P><FONT face="Times New Roman, Times, serif">That was also
+
+an example of a nested command. </FONT> </P>
+
+</HTML>
+
+..........................................................................................................................................
+1.3
+
+
+<!doctype html>
+<html>
+<head>
+<title>
+hello</title></head>
+<body>
+<form name="form1" method="get/post"
+
+accept-charset="ISO-8859-1" enctype="multipart/form-data"
+
+autocomplete="on" action="url" target="_self" novalidate>
+
+ USER ID:<input type="text" name="n1" value="" size="10"
+
+maxlength="20" >
+
+ <br/></br></br>
+first name:<input type="text area" name="n2" value=""><br/></br></br>
+
+last  name:<input type="text" name="n2" value=""><br/></br></br>
+address:<input type="text" name="n2" value=""><br/></br></br>
+<select name="country">
+
+  <option value="india" selected>india</option>
+
+  <option value="america">america</option>
+
+  <option value="china">china</option><br/></br></br>&nbsb;
+
+ 
+
+</select><br><br> 
+phone no:<input type="text" name="n2" value=""><br/></br></br>
+zip code:<input type="text" name="n2" value=""><br/></br></br>
+<input type="radio" name="gender" value="bus" checked> bus<br>
+
+  <input type="radio" name="gender" value="male" checked> male<br>
+<input type="radio" name="gender" value="female" checked> female<br>
+
+
+  <input type="radio" name="gender" value="other" checked> Other
+
+<br/><br/>
+
+
+
+
+<input type="submit" value="Submit" ></a>
+
+<input type="reset" value="Reset"><br>
+
+
+ 
+
+</form>
+</body>
+</html> 
+.....................................................................................................................................................
+1.4
+
+
+
+<!doctype html>
+<html>
+<head>
+<title> hello</title
+</head>
+<body>
+<table border="1" style="width:100%" cellpadding="10">
+
+  <tr>
+<th>planet name</th>
+<th> year length</th>
+<th>day length</th>
+</tr>
+<tr>
+
+    <td>mercury</td>
+
+    <td>88 days</td>
+
+    <td>59 days</td>
+
+  </tr>
+
+  <tr>
+
+    <td>venus</td>
+
+    <td>225 days</td>
+
+    <td>243 days</td>
+
+  </tr>
+
+<tr>
+
+    <td>earth</td>
+
+    <td>365 days</td>
+
+    <td>24 hrs</td>
+
+  </tr>
+<tr>
+
+    <td>mars</td>
+
+    <td>765 days</td>
+
+    <td>24.6 hrs</td>
+
+  </tr>
+
+</table>
+
+
+</body>
+</html>
+ 
+
+............................................................................................................................................
+1.5
+
+<!doctype html>
+<html>
+<head>
+<title>formattertags</title>
+</head>
+<body>
+<pre>
+
+hii hello how are you
+
+</pre>
+<ol>
+  <li>Circle</li>
+  <li>square</li>
+  <li>Moon</li>
+</ol>
+<ul>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+</ul>
+</body>
+</html>
+...........................................................................
+1.6
+
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<p> introduction to html</p>
+<p>welcome to html
+html contains tags</p><br>
+<b>hii hello welcome</b><br>
+<hr width="25%" color="green"><br>
+<h1 style="background-color:DodgerBlue;">Hello World</h1><br>
+<center>who are you</center><br>
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+
+<img src="C:\Users\anush\Downloads\down.jfif" alt="Flower"
+
+style="width:304px;height:228px;><br/><br/>
+
+ ................................................................................
+1.7
+
+
+<!doctype html>
+<html>
+<head>
+<title>
+hello</title>
+</head>
+<body>
+<i>welcome</i></br>
+<h1 style="background-color:DodgerBlue;">Hello World</h1><br>
+<a href="mailto:anushareddy.thunga@gmail.com &subject=hello&body=hii></a><br>
+<img src="C:\Users\anush\Downloads\down.jfif" alt="Flower" 
+
+style="width:304px;height:228px;><br/><br/>
+<img src="C:\Users\anush\Downloads\down.jfif" alt="Flower" 
+
+style="width:300px;height:300px; formaction="myimage.html">
+><br/><br/>
+
+
+
+</body>
+</html>
+
+
+
+<!doctype html>
+<html>
+<head>
+<title> hello</title>
+</head>
+<body>
+<img src="C:\Users\anush\Downloads\down.jfif" alt="Flower" 
+
+style="width:304px;height:228px;><br/><br/>
+<img src="C:\Users\anush\Downloads\down.jfif" alt="Flower" 
+
+style="width:304px;height:228px;><br/><br/>
+<img src="C:\Users\anush\Downloads\down.jfif" alt="Flower" 
+
+style="width:304px;height:228px;><br/><br/>
+</body>
+</html>
+
+..............................................................................
+1.8
+
+
+<!doctype html>
+<html>
+<head>
+<title>
+hello</title>
+</head>
+<style>
+div{
+background-image:
+url("C:\Users\anush\Downloads\down.jfif");
+}
+</style>
+<body>
+<p> my hobbies are playing games,watcing movies</p></br>
+<ul><li>c</li>
+<li>java</li>
+</ul>
+<br>
+<a href="www.google.com">hii</a><br>
+<hr width=300 height=15></hr>
+...............................................................................
+1.9
+
+<html>
+<head>
+<title>
+hello</title></head>
+<body>
+<form name="form1" method="get/post"
+
+accept-charset="ISO-8859-1" enctype="multipart/form-data"
+
+autocomplete="on" action="url" target="_self" novalidate>
+
+ <label for="login"></label>
+login:<input type="text" name="n1" value="" size="10"><br/></br></br>
+<label for="password"></label>
+password:<input type="password" name="n2" value=""><br/></br></br>
+<a href="submit.html" ><input type="submit" value="Submit" formaction="success.html"></a>
+
+<input type="reset" value="Reset"><br>
+
+
+ 
+
+</form>
+</body>
+</html> 
+
+<!doctype html>
+<html>
+<head>
+<title>
+hello</title>
+</head>
+<body>
+<center><b>success</b></center>
+</body>
+</html>
